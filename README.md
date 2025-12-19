@@ -5,8 +5,8 @@ Markov chain text generator with a Python script to measure cosine similarity.
 - Generates text using n-gram Markov chains
 - Customizable n-gram size, sentence length, number of sentences, and seed word
 - Saves generated sentences to: <code>data/generated.txt</code>
-- Measures similarity between input and generated text using cosine similarity.
-- Provides basic analysis like most common next words for seeds.
+- Measures similarity between input and generated text using cosine similarity
+- Provides basic analysis like most common next words for seeds
 
 ## Requirements
 - Java 11+
@@ -37,7 +37,7 @@ Markov chain text generator with a Python script to measure cosine similarity.
         3. Number of sentences
         4. Optional seed word
 
-    - Generated sentences are saved in data/generated.txt.
+    - Generated sentences are saved in data/generated.txt
 
 2. Measure Similarity:
     - From root:
@@ -45,13 +45,13 @@ Markov chain text generator with a Python script to measure cosine similarity.
         python infer.py
         ```
 
-    - This outputs a cosine similarity score (0–1) between input.txt and generated.txt.
+    - This outputs a cosine similarity score (0–1) between input.txt and generated.txt
 
 
 ## Tips
-- Smaller n-grams (2–3) produce more creative, less coherent text.
-- Larger n-grams (4–5) produce more coherent text, closer to the original style.
-- You can replace input.txt with any text to experiment.
+- Smaller n-grams (2–3) produce more creative, less coherent text
+- Larger n-grams (4–5) produce more coherent text, closer to the original style
+- You can replace input.txt with any text to experiment
 
 ## License
 MIT License
