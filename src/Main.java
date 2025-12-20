@@ -25,7 +25,7 @@ public class Main {
             System.out.print("Enter number of sentences to generate: ");
             int numSentences = Integer.parseInt(scanner.nextLine());
 
-            System.out.print("Enter seed word (or leave blank for random): ");
+            System.out.print("Enter seed word/sentence (or leave blank for random): ");
             String seedInput = scanner.nextLine().trim();
             String seed = seedInput.isEmpty() ? null : seedInput;
 
